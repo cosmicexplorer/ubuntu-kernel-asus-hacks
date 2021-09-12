@@ -1922,11 +1922,11 @@ CONFIG_DEVTMPFS_MOUNT                           policy<{'amd64': 'y', 'arm64': '
 CONFIG_STANDALONE                               policy<{'amd64': 'n', 'arm64': 'y', 'armhf': 'y', 'ppc64el': 'y', 's390x': 'y'}>
 CONFIG_PREVENT_FIRMWARE_BUILD                   policy<{'amd64': 'y', 'arm64': 'y', 'armhf': 'y', 'ppc64el': 'y', 's390x': 'y'}>
 CONFIG_ALLOW_DEV_COREDUMP                       policy<{'amd64': 'y', 'arm64': 'y', 'armhf': 'y', 'ppc64el': 'y', 's390x': 'y'}>
-CONFIG_DEBUG_DRIVER                             policy<{'amd64': 'n', 'arm64': 'n', 'armhf': 'n', 'ppc64el': 'n', 's390x': 'n'}>
-CONFIG_DEBUG_DEVRES                             policy<{'amd64': 'n', 'arm64': 'n', 'armhf': 'n', 'ppc64el': 'n', 's390x': 'n'}>
+#CONFIG_DEBUG_DRIVER                             policy<{'amd64': 'n', 'arm64': 'n', 'armhf': 'n', 'ppc64el': 'n', 's390x': 'n'}>
+#CONFIG_DEBUG_DEVRES                             policy<{'amd64': 'n', 'arm64': 'n', 'armhf': 'n', 'ppc64el': 'n', 's390x': 'n'}>
 CONFIG_DEBUG_TEST_DRIVER_REMOVE                 policy<{'amd64': 'n', 'arm64': 'n', 'armhf': 'n', 'ppc64el': 'n', 's390x': 'n'}>
 CONFIG_TEST_ASYNC_DRIVER_PROBE                  policy<{'amd64': 'n', 'arm64': 'n', 'armhf': 'n', 'ppc64el': 'n', 's390x': 'n'}>
-CONFIG_DMA_FENCE_TRACE                          policy<{'amd64': 'n', 'arm64': 'n', 'armhf': 'n', 'ppc64el': 'n', 's390x': 'n'}>
+#CONFIG_DMA_FENCE_TRACE                          policy<{'amd64': 'n', 'arm64': 'n', 'armhf': 'n', 'ppc64el': 'n', 's390x': 'n'}>
 #
 CONFIG_DEVTMPFS                                 note<ENFORCED> note<upstart requirement>
 CONFIG_DEVTMPFS_MOUNT                           note<ENFORCED> note<upstart requirement>
@@ -1935,7 +1935,7 @@ CONFIG_DEVTMPFS_MOUNT                           note<ENFORCED> note<upstart requ
 
 # Menu: Device Drivers >> Generic Driver Options >> Firmware loader >> Firmware loading facility
 CONFIG_FW_LOADER                                policy<{'amd64': 'y', 'arm64': 'y', 'armhf': 'y', 'ppc64el': 'y', 's390x': 'y'}>
-CONFIG_EXTRA_FIRMWARE                           policy<{'amd64': '""', 'arm64': '""', 'armhf': '""', 'ppc64el': '""', 's390x': '""'}>
+#CONFIG_EXTRA_FIRMWARE                           policy<{'amd64': '""', 'arm64': '""', 'armhf': '""', 'ppc64el': '""', 's390x': '""'}>
 CONFIG_FW_LOADER_USER_HELPER                    policy<{'amd64': 'y', 'arm64': 'y', 'armhf': 'y', 'ppc64el': 'y', 's390x': 'y'}>
 CONFIG_FW_LOADER_USER_HELPER_FALLBACK           policy<{'amd64': 'n', 'arm64': 'n', 'armhf': 'n', 'ppc64el': 'n', 's390x': 'n'}>
 CONFIG_FW_LOADER_COMPRESS                       policy<{'amd64': 'y', 'arm64': 'y', 'armhf': 'y', 'ppc64el': 'y', 's390x': 'y'}>
