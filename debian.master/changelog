@@ -699,7 +699,7 @@ linux (5.13.0-17.17) impish; urgency=medium
 
  -- Andrea Righi <andrea.righi@canonical.com>  Fri, 24 Sep 2021 17:46:04 +0200
 
-linux (5.13.0-16.16) impish; urgency=medium
+linux (5.13.0-16.16+local-asus-build) impish; urgency=medium
 
   * impish/linux: 5.13.0-16.16 -proposed tracker (LP: #1942611)
 
