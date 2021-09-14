@@ -1,4 +1,4 @@
-linux (5.13.0-21.21) impish; urgency=medium
+linux (5.13.0-21.777+local-asus) impish; urgency=medium
 
   * impish/linux: 5.13.0-21.21 -proposed tracker (LP: #1947347)
 
@@ -427,7 +427,7 @@ linux (5.13.0-21.21) impish; urgency=medium
 
  -- Stefan Bader <stefan.bader@canonical.com>  Tue, 19 Oct 2021 10:41:30 +0200
 
-linux (5.13.0-20.20) impish; urgency=medium
+linux (5.13.0-20.777+local-asus) impish; urgency=medium
 
   * impish/linux: 5.13.0-20.20 -proposed tracker (LP: #1947380)
 
@@ -438,7 +438,7 @@ linux (5.13.0-20.20) impish; urgency=medium
 
  -- Stefan Bader <stefan.bader@canonical.com>  Fri, 15 Oct 2021 15:53:08 +0200
 
-linux (5.13.0-19.19) impish; urgency=medium
+linux (5.13.0-19.777+local-asus) impish; urgency=medium
 
   * impish/linux: 5.13.0-19.19 -proposed tracker (LP: #1946337)
 
@@ -447,7 +447,7 @@ linux (5.13.0-19.19) impish; urgency=medium
 
  -- Andrea Righi <andrea.righi@canonical.com>  Thu, 07 Oct 2021 11:09:51 +0200
 
-linux (5.13.0-18.18) impish; urgency=medium
+linux (5.13.0-18.777+local-asus) impish; urgency=medium
 
   * impish/linux: 5.13.0-18.18 -proposed tracker (LP: #1945995)
 
@@ -457,7 +457,7 @@ linux (5.13.0-18.18) impish; urgency=medium
 
  -- Andrea Righi <andrea.righi@canonical.com>  Mon, 04 Oct 2021 16:22:02 +0200
 
-linux (5.13.0-17.17) impish; urgency=medium
+linux (5.13.0-17.777+local-asus) impish; urgency=medium
 
   * impish/linux: 5.13.0-17.17 -proposed tracker (LP: #1944943)
 
@@ -699,7 +699,7 @@ linux (5.13.0-17.17) impish; urgency=medium
 
  -- Andrea Righi <andrea.righi@canonical.com>  Fri, 24 Sep 2021 17:46:04 +0200
 
-linux (5.13.0-16.16+asus42) impish; urgency=medium
+linux (5.13.0-16.781+local-asus) impish; urgency=medium
 
   * impish/linux: 5.13.0-16.16 -proposed tracker (LP: #1942611)
 
